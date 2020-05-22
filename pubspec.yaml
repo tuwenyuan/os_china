@@ -1,0 +1,40 @@
+name: oschina
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  flutter_webview_plugin: ^0.3.11
+  http: ^0.12.1
+  shared_preferences: ^0.5.7+2
+  event_bus: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+  #导航栏图标
+  - assets/images/ic_nav_news_normal.png
+  - assets/images/ic_nav_news_actived.png
+  - assets/images/ic_nav_tweet_normal.png
+  - assets/images/ic_nav_tweet_actived.png
+  - assets/images/ic_nav_discover_normal.png
+  - assets/images/ic_nav_discover_actived.png
+  - assets/images/ic_nav_my_normal.png
+  - assets/images/ic_nav_my_pressed.png
+  - assets/images/ic_avatar_default.png
+  #抽屉背景
+  - assets/images/cover_img.jpg
+
